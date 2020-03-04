@@ -35,7 +35,7 @@ In those APIs, you have to set header as listed below:
 ![List Categories](http://mos-tafa.com/screen-shots/list-all-category.png)
 
 ## Create Category:
-![Create Category](http://mos-tafa.com/screen-shots/ceate-category.png)
+![Create Category](http://mos-tafa.com/screen-shots/create-category.png)
 
 ## Update Category:
 ![Update Category](http://mos-tafa.com/screen-shots/update-category-success.png)
