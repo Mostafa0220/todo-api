@@ -16,33 +16,47 @@ php artisan migrate --seed
 php -S localhost:9000 -t public
 # default login is mostafa@gmail.com:123456
 ```
-## public APIs:
+# Public APIs:
 
-# Register API:
+## Register API:
 ![Register API](http://mos-tafa.com/screen-shots/register.png)
 
-# Login API:
+## Login API:
 ![Login API](http://mos-tafa.com/screen-shots/login.png)
 
 
-## Authenticated users APIs:
-In those APIs, you have to set two headers as listed below:
+# Authenticated users APIs:
+In those APIs, you have to set header as listed below:
 ‘headers’ => 
 [
-    ‘Accept’ => ‘application/json’,
     ‘Authorization’ => ‘Bearer ‘.$accessToken,
 ]
-# List Categories:
+## List Categories:
 ![List Categories](http://mos-tafa.com/screen-shots/list-all-category.png)
 
-# Create Category:
+## Create Category:
 ![Create Category](http://mos-tafa.com/screen-shots/ceate-category.png)
 
-# Update Category:
+## Update Category:
 ![Update Category](http://mos-tafa.com/screen-shots/update-category-success.png)
 
-# Validation Update Category:
+## Validation Update Category:
 ![Validation Update Category](http://mos-tafa.com/screen-shots/update-category-validation.png)
 
-# Delete Category:
+## Delete Category:
 ![Delete Category](http://mos-tafa.com/screen-shots/delete-category.png)
+
+## List Todos List:
+![List All Todos](http://mos-tafa.com/screen-shots/get-all-todos.png)
+
+## Filter Todos List:
+![Filter Todos](http://mos-tafa.com/screen-shots/filter-todo-list.png)
+
+## Create New Todo:
+![Create New Todo](http://mos-tafa.com/screen-shots/create-todo.png)
+
+## Update Todo:
+![Update Todo](http://mos-tafa.com/screen-shots/update-todo.png)
+
+## Delete Todo:
+![Delete Todo](http://mos-tafa.com/screen-shots/delete-todo.png)
